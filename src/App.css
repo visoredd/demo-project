@@ -1,33 +1,45 @@
 :root {
-    --gray: #4d4d4d;
-    --black: #000000;
-    --pink: #eeaeae;
-    --purple: #800080;
-    --gradient1: linear-gradient(to left, #800080, #ff864c);
-    font-size: 16px;
-    font-family: "Poppins";
-  }
-  a {
-    text-decoration: none;
-  }
-  .App {
-    height: 100vh;
-  }
+  --gray: #4d4d4d;
+  --black: #000000;
+  --pink: #eeaeae;
+  --purple: #800080;
+  --gradient1: linear-gradient(to left, #800080, #ff864c);
+  font-size: 16px;
+  font-family: "Poppins";
+}
+a {
+  text-decoration: none;
+}
+.main {
+  margin: 0 10rem;
+}
+.main > div {
+  padding: 2rem;
+}
+.heading {
+  font-size: 24px;
+  color: var(--purple);
+  font-weight: 500;
+}
+
+.footer > h4 {
+  color: var(--purple);
+}
+.footer a {
+  cursor: pointer;
+}
+@media screen and (max-width: 1336px) {
   .main {
-    margin: 0 10rem;
+    margin: 0 5rem;
   }
-  .main > div {
-    padding: 2rem;
+}
+@media screen and (max-width: 992px) {
+  .main {
+    margin: 0 2rem;
   }
-  .heading {
-    font-size: 24px;
-    color: var(--purple);
-    font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    margin: 0 1rem;
   }
-  
-  .footer > h4 {
-    color: var(--purple);
-  }
-  .footer a{
-    cursor: pointer;
-  }
+}

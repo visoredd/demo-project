@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <nav>
-        <ul>
+        <ul className="orderList">
           <li>
             <a>My Assignment</a>
           </li>
@@ -27,6 +27,7 @@ function Navbar() {
                 <path
                   d="M1.41 0.589844L6 5.16984L10.59 0.589844L12 1.99984L6 7.99984L0 1.99984L1.41 0.589844Z"
                   fill="#800080"
+                  className="profleSvg"
                 />
               </svg>
             </a>

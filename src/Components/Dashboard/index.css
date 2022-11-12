@@ -21,19 +21,16 @@
   gap: 10rem;
 }
 .dashboard > .wallet2 {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
   box-shadow: 0 0 10px #ddd;
   height: 148px;
   border-radius: 10px;
-  padding: 2rem;
+  padding: 1rem;
+  text-align: center;
 }
 
-.wallet2 > div {
-  display: flex;
-  justify-content: space-evenly;
-}
 .wallet2:first-child {
   color: var(--purple);
 }
@@ -41,6 +38,12 @@
   font-size: 32px;
   font-weight: 500;
   color: var(--black);
+}
+.withdraw {
+  grid-column: 1/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .withdraw > a {
   width: max-content;
@@ -58,4 +61,27 @@
 }
 .referal > div {
   color: var(--purple);
+}
+@media screen and (max-width: 1200px) {
+  .dashboard {
+    gap: 5rem;
+  }
+  .referralCode {
+    padding: 20px 60px;
+    letter-spacing: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .withdraw {
+    grid-column: auto;
+  }
+  .dashboard > .wallet2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
