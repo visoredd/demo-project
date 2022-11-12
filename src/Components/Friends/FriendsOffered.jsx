@@ -12,7 +12,7 @@ function FriendsOffered() {
 
             <section className="codes">
             <div>UI/UX &gt; Refer & Earn &gt; Friends Offered</div>
-                <span onClick={goback} className="goback">Go Back</span>
+                <span onClick={goback} className="goback">&lt;&minus; go back</span>
                 <div className=" row">
                     <div className="ref-code col-8">
                         <span className="your">Your Referral Code</span>
@@ -63,12 +63,7 @@ function FriendsOffered() {
                             <div className=" values">
                                   MERN
                             </div>
-                            <div className=" values">
-                                  DSA
-                            </div>
-                            <div className=" values">
-                                  C/C++
-                            </div>
+    
                             <div className=" values">
                                   Java
                             </div>
@@ -101,12 +96,7 @@ function FriendsOffered() {
                             <div className=" values">
                                   MERN
                             </div>
-                            <div className=" values">
-                                  DSA
-                            </div>
-                            <div className=" values">
-                                  C/C++
-                            </div>
+                            
                             <div className=" values">
                                   Java
                             </div>

@@ -146,7 +146,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 20px;
 color: #800080;
-
+display: none;
 cursor: pointer;
 }
 .name{
@@ -207,4 +207,178 @@ margin:5px;
   display: flex;
   margin-top: 5rem;
   flex-wrap: wrap;
+}
+@media (max-width:768px) {
+  .goback{
+    display: contents;
+  }
+  .wallet1{
+    margin-left:0rem;
+  }
+}
+@media (max-width:1400px) {
+  .values{
+    font-size: 13px;
+  }
+  .end{
+    font-size: 18px;
+  }
+  .wallet1{
+    margin-left:4rem;
+  }
+}
+@media (max-width:1290px) {
+  .values{
+    font-size: 10px;
+  }
+  .end{
+    margin-top:10px;
+    font-size: 15px;
+  }
+}
+@media (max-width:1240px) {
+  .wallet1{
+    margin-left:2rem;
+  }
+}
+@media (max-width:1143px) {
+  .values{
+    font-size: 9px;
+    padding:6px;
+  }
+  .end{
+    margin-top:10px;
+    font-size: 13px;
+  }
+  .date{
+    margin-left:-10px;
+  }
+  .wallet1{
+    margin-left:1rem;
+  }
+}
+@media (max-width:1010px) {
+  .values{
+    font-size: 9px;
+    padding:5px;
+  }
+  .end{
+    margin-top:10px;
+    font-size: 13px;
+  }
+  .wallet1{
+    margin-left:0rem;
+  }
+}
+@media (max-width:991px){
+  .values{
+    font-size: 15px;
+    padding:8px;
+  }
+  .end{
+    margin-top:20px;
+    font-size: 20px;
+  }
+ .friends{
+  margin-bottom:10px;
+ }
+ .wallet1{
+  margin-left:2rem;
+ }
+}
+@media (max-width:850px)
+{
+  .wallet1{
+    margin-left:0.5rem;
+  }
+}
+@media (max-width:760px)
+{
+  .wallet1{
+    margin-left:-0.8rem;
+  }
+}
+
+@media (max-width:675px)
+{
+  .wallet1{
+    margin-left:-2rem;
+  }
+  .end{
+    margin-top:5px;
+  }
+}
+@media (max-width:620px)
+{
+  .wallet1{
+    margin-left:-3rem;
+  }
+  .end{
+    margin-top:5px;
+  }
+}
+@media (max-width:520px)
+{
+  .wallet1{
+    margin-left:-4rem;
+  }
+  .end{
+    margin-top:5px;
+  }
+  .your{
+    font-size:18px;
+  }
+}
+@media (max-width:460px)
+{
+  .wallet1{
+    margin-left:-4rem;
+  }
+  .end{
+    margin-top:5px;
+  }
+  .your{
+    font-size:16px;
+  }
+  .code{
+    font-size: 14px;
+  }
+}
+@media (max-width:430px)
+{
+  .wallet1{
+    margin-left:-4rem;
+    width:180px
+  }
+  .balance{
+    font-size:18px
+  }
+  .rupees{
+    font-size:16px;
+  }
+}
+@media (max-width:412px)
+{
+  .wallet1{
+    margin-left:-2rem;
+    width:140px;
+    height:90px;
+  }
+  .balance{
+    font-size:14px
+  }
+  .rupees{
+    font-size:14px;
+  }
+}
+@media (max-width:412px)
+{
+  .values{
+    font-size: 13px;
+    padding:7px;
+  }
+  .end{
+    margin-top:10px;
+    font-size: 20px;
+  }
 }
