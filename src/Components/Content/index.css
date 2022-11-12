@@ -1,0 +1,24 @@
+.working {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .working > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+  .content {
+    width: 800px;
+  }
+  .img {
+    background: rgba(217, 217, 217, 0.25);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+  .content h4 {
+    margin: 0;
+  }

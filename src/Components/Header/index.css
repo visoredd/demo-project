@@ -1,0 +1,20 @@
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: var(--purple);
+  }
+  .profile {
+    font-weight: 600;
+  }
+  
+  .navber ul > li:nth-child(n) {
+    opacity: 0.4;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+  }
