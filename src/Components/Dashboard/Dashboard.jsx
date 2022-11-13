@@ -18,7 +18,10 @@ function Dashboard() {
           <div className="amount">₹ 500</div>
         </div>
         <div className="withdraw">
-          <a> Withdraw Balance</a>
+          <a>
+            <span> Withdraw</span>
+            <span> Balance</span>
+          </a>
         </div>
       </div>
       <div className="referal">

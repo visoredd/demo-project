@@ -32,3 +32,8 @@
     margin: 0 1.5rem;
   }
 }
+@media screen and (max-width: 367px) {
+  .header {
+    margin: 0 0rem;
+  }
+}

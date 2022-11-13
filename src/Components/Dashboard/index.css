@@ -25,7 +25,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   box-shadow: 0 0 10px #ddd;
-  height: 148px;
+  height: max-content;
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
@@ -83,5 +83,14 @@
   }
   .dashboard > .wallet2 {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 367px) {
+  .wallet2 span {
+    display: block;
+  }
+  .referralCode {
+    padding: 10px 40px;
+    letter-spacing: 5px;
   }
 }
